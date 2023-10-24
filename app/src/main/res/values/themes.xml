@@ -1,0 +1,17 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.Tugas8" parent="Theme.Material3.DayNight.NoActionBar">
+<!--         <item name="color">@color/blue</item>-->
+    </style>
+
+    <style name="Base.Theme.Tugas8.WithActionBar" parent="Theme.Material3.DayNight">
+        <item name="android:statusBarColor">@color/blue</item>
+        <item name="actionBarTheme">@style/ActionBarCustom</item>
+    </style>
+
+    <style name="Theme.Tugas8" parent="Base.Theme.Tugas8" />
+
+    <style name="ActionBarCustom">
+        <item name="android:background">@color/blue</item>
+    </style>
+</resources>
